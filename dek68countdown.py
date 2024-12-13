@@ -23,7 +23,7 @@ def tweet():
 
     for event_name, target_date in events.items():
         days_left = (target_date - current_date).days
-        tweets.append(f"เหลืออีก {days_left} วัน จนถึงสอบ {event_name} 68!")
+        tweets.append(f"เหลืออีก {days_left} วัน จะถึงการสอบ {event_name} 68!")
     
     format_tweet = "\n".join(tweets) + "\n#dek68 #TCAS68"
     
